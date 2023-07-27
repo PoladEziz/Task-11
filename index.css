@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background: #28293E;
+  padding: 0px 135px;
+}
+.main nav {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 120px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main nav ul {
+  width: 535px;
+  height: 32px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main nav ul li {
+  list-style-type: none;
+  color: var(--text-light, #FFF);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.main nav ul a {
+  color: #FFFFFF;
+}
+.main nav .contact {
+  width: 138px;
+  height: 48px;
+  color: #FFFFFF;
+  background: #28293E;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #FFF;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main .box-left .orange-p {
+  color: var(--text-light-accent, #EF6D58);
+  margin-bottom: 24px;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.main .box-left pre {
+  width: 513px;
+  margin-bottom: 24px;
+  color: #FFFFFF;
+  font-family: Epilogue;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px;
+}
+.main .box-left span {
+  color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.main .box-left .orange-btn {
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+  background: #EF6D58;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main .box-left .mid-contact {
+  margin-left: 46px;
+  margin-bottom: 116px;
+  background-color: #28293E;
+  border: none;
+  color: var(--text-light, #FFF);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.main .mid {
+  display: flex;
+  justify-content: space-between;
+}
+.main .bot-div {
+  display: flex;
+}
+.main .bot-p-1 {
+  margin-left: 24px;
+  color: var(--text-light-gray, rgba(255, 255, 255, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.main .bot-p-2 {
+  margin-left: 24px;
+  color: var(--text-light, #FFF);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.main .bot-img {
+  width: 38px;
+  height: 43px;
+}/*# sourceMappingURL=index.css.map */
